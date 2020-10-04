@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Art gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styling.css">
+<style>
+  .mod {
+  width: 1300px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:link {
+  text-decoration: none;
+}
+.im img {
+  opacity: 0.5;
+}
+.im img:hover {
+  opacity: 1.0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+@media (max-width: 480px) {
+  .w3-top .w3-bar .w3-white .w3-wide .w3-padding .w3-card{position: relative;}
+}
+
+/*@media (min-width: 481px) and (max-width: 767px) { 
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+@media (min-width: 1025px) and (max-width: 1280px){ 
+
+@media (min-width: 1281px) {*/
+
+  
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Art Gallery</b> </a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <ul>
+      <li><a href="regnew.html" class="w3-bar-item w3-button">Register</a></li>
+      <li><a href="#login" class="w3-bar-item w3-button">Login</a></li>
+      <li><a href="about.html" class="w3-bar-item w3-button">About</a></li>
+      <li><a href="#contact" class="w3-bar-item w3-button">Contact</a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="unnamed.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ART</b></span> <span class="w3-hide-small w3-text-light-grey">GALLERY</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Art works</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="images(1).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="images(2).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="images(3).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="images(4).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <div class="mod">
+    <h4>Here is the space to share your arts works.Explore the art world.If you’re an artist who wishes to promote artworks into a wider audience, an art gallery can be an ideal way to improve credibility. Likewise, an art gallery website can do so much to improve the artist’s exposure.Art galleries offers a huge leap for every artists on their respective careers. That’s why this medium of exposure should not be missed by artists of any type.</h4>
+    <br><br></div><br>
+    <h4><i>Everywhere you walk, every place you go is full of art, explicit or hidden!</i></h4>
+  </div>
+
+  <!-- Image of location/map -->
+<div class="w3-container">
+  <div class="im">
+  <img src="97a4fd48d9f2949f83ab564085e2257b.jpg" class="w3-image" alt="House" style="width:100%"></div>
+</div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p><i>Art evokes the mystery without which the world would not exist </i></p>
+</footer>
+
+</body>
+</html>
