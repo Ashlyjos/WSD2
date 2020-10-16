@@ -26,7 +26,7 @@
                 <h1 style="text-align:center;">ART GALLERY</h1>
                 <h2 style="text-align:center;">Welcome to the world of art!</h2>
                 <div class='Lists'>
-                    <h2>Download Here!</h2>
+                    
                     <table border="2">
                         <tr bgcolor="#ff99ff">
                             <th style="text-align:left">Art works</th>
