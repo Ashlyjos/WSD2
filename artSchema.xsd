@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/artSchema" xmlns:tns="http://www.example.org/artSchema" elementFormDefault="qualified">
+<complexType name="arttype">
+<sequence>
+<element name="art" type="tns:arttype">
+</element>
+</sequence>
+</complexType>
+<complexType name="artstype">
+<sequence>
+<element name="artwork" type="string">
+</element>
+<element name="artist" type="tns:myArtist">
+</element>
+<element name="size" type="tns:mySize">
+</element>
+<element name="price" type="tns:myPrice">
+</element>
+<element name="stock" type="integer">
+</element>
+</sequence>
+<attribute name="mid" type="ID" use="required">
+</attribute>
+</complexType>
+<simpleType name="myArtist">
+<restriction base="string">
+<pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/>
+</restriction>
+</simpleType>
+<simpleType name="mySize">
+<restriction base="integer">
+<minInclusive value="3"></minInclusive>
+<maxInclusive value="10"></maxInclusive>
+</restriction>
+</simpleType>
+<simpleType name="myPrice">
+<restriction base="integer">
+<minInclusive value="50"></minInclusive>
+<maxInclusive value="500"></maxInclusive>
+</restriction>
+</simpleType>
+
+</schema>
