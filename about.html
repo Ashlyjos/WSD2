@@ -1,41 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Art gallery</title>
+<head><title>Art gallery</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styling.css">
-<style>
-	 
-  .abt {
-     background: url(named.jpg);
-  background-size: 1400px 180px;
-  background-repeat: no-repeat;
-  padding: 15px;
-  }
-  @media (max-width: 480px) {
-    .w3-container{position: relative;}
-  }
-
-    .contents{
-       position: relative;
-       animation-name: contents;
-       animation-duration: 4s;
-       animation-iteration-count: infinite;
-       animation-direction: normal;
-    }
-    @keyframes contents{
-    0%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: none;
-        opacity: 1;
-    }
-}
-</style>
-<body onload="checkCookie()">
-	<script type="text/javascript">
+<script type="text/javascript">
 		function createCookie(cookieName,cookieValue,daysToExpire)
         {
           var date = new Date();
@@ -69,6 +38,40 @@
             }
           }
         }
+	</script>
+	</head>
+	<style>
+	 
+  .abt {
+     background: url(named.jpg);
+  background-size: 1400px 180px;
+  background-repeat: no-repeat;
+  padding: 15px;
+  }
+  @media (max-width: 480px) {
+    .w3-container{position: relative;}
+  }
+
+    .contents{
+       position: relative;
+       animation-name: contents;
+       animation-duration: 4s;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+    }
+    @keyframes contents{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}
+</style>
+<body onload="checkCookie()">
+	
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="index.html" class="w3-bar-item w3-button"><b>Art Gallery</b> </a>
