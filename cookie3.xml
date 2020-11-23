@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arts>
+<art mid="M1">
+<artwork>Lovely</artwork>
+<artist>Billie</artist>
+<size>11*16</size>
+<price>15500</price>
+<stock>3</stock>
+</art>
+<art mid="M2">
+<artwork>Erase you</artwork>
+<artist>Catrien Maxwell</artist>
+<size>15*10</size>
+<price>16500</price>
+<stock>3</stock>
+</art>
+<art mid="M3">
+<artwork>Savage Love</artwork>
+<artist>Jason Derulo</artist>
+<size>10*20</size>
+<price>2100</price>
+<stock>1</stock>
+</art>
+<art mid="M4">
+<artwork>You Broke Me First</artwork>
+<artist>Tate MCRae</artist>
+<size>17*20</size>
+<price>19650</price>
+<stock>4</stock>
+</art>
+<art mid="M5">
+<artwork>Rockstar</artwork>
+<artist>DaBaby</artist>
+<size>20*20</size>
+<price>1300</price>
+<stock>2</stock>
+</art>
+</arts>
