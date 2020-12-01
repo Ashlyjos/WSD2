@@ -1,0 +1,27 @@
+
+[
+    {
+      "name": "THE LAST SUPPER",
+      "artist" : "LEONARDO DA VINCI",
+     "detail": {
+        "rate": ["25000"]
+        
+      }
+    },
+    {
+      "name": "THE GIRL WITH A PEARL EARRING",
+      "artist" : "JAN VERMEER",
+     "detail": {
+        "rate": ["35000"]
+        
+      }
+    },
+    {
+      "name": "PEACE",
+      "artist" : "PICASSO",
+      "detail": {
+        "rate": ["75000"]
+        
+      }
+    }
+  ]

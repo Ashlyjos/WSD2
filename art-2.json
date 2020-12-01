@@ -1,0 +1,26 @@
+[
+    {
+      "name": "SUNFLOWERS",
+      "artist" : "VINCENT VAN GOGH",
+     "detail": {
+        "rate": [" 155000"]
+        
+      }
+    },
+    {
+      "name": "CECI N'EST PAS UNE PIPE",
+      "artist" : "RENE MAGRITTE",
+     "detail": {
+        "rate": [" 95000"]
+        
+      }
+    },
+    {
+      "name": "POPPIES IN A FIELD",
+      "artist" : "CLAUDE MONET",
+     "detail": {
+        "rate": [" 85000"]
+        
+      }
+    }
+  ]
